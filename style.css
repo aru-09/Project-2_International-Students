@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Page background  */
+body {
+    margin: 0;
+    background-color: #e9eef5;
+    color: #1d2433;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* The white box  */
+.page {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 14px;
+    background-color: white;
+}
+
+
+/* Photo, Caption and Credit */
+
+figure {
+    margin: 0 0 20px 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+
+}
+
+figcaption {
+    margin-top: 8px;
+    color: #5a6270;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+.credit {
+    display: block;
+    font-style: italic;
+}
+
+
+/*  HEADLINE, BYLINE, DATELINE */
+
+h1 {
+    margin: 0 0 12px 0;
+    color: dark blue;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Byline and dateline are centered under the headline */
+.byline,
+.dateline {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Dateline is gray so the byline stands out slightly more */
+.dateline {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+
+
+
+h2 {
+    margin: 0 0 8px 0;
+    color: #1f3a6e;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+.section p {
+    margin: 0;
+}
+
+
+
+@media (min-width: 700px) {
+
+    .page {
+        margin: 32px auto;
+        padding: 40px 48px;
+    }
+
+    body {
+        font-size: 1.125rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+}
